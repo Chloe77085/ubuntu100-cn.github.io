@@ -26,7 +26,7 @@
 
 |路径          | 何时使用           | 链接|
 |--------------|-------------------|------|
-|将预装Ubuntu升级到最新的Canonical版本（**无需重新刷写**）|如果您的RUBIK Pi已经运行Ubuntu，请使用此路径升级到具有最新工具和修复的版本，无需完全重新安装。|[**🔗升级Canonical Ubuntu到最新版本**](../3.Update-Software/3.1.upgrade-ubuntu.md)|
+|将预装Ubuntu升级到最新的Canonical版本（**无需重新刷写**）|如果您的魔方派已经运行Ubuntu，请使用此路径升级到具有最新工具和修复的版本，无需完全重新安装。|[**🔗升级Canonical Ubuntu到最新版本**](../3.Update-Software/3.1.upgrade-ubuntu.md)|
 |在Android/QLI/Ubuntu上刷写Canonical Ubuntu 24.04（**用于全新Ubuntu设置**）|使用此路径从Android或Qualcomm Linux (QLI)完全切换到用于开发的Canonical Ubuntu 24.04。|<a href='/rubik-pi-3/en/docs/rubik-pi-3-user-manual/1.0.0-u/Update-Software/3.2.Flash-using-Qualcomm-Launcher' target='_blank'>**🔗 使用Qualcomm Launcher刷写镜像**</a>|
 
 

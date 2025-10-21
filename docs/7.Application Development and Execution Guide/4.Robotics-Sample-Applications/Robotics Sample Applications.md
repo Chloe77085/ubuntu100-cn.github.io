@@ -6,7 +6,9 @@
 • 	**端到端场景示例**：包含示例场景来帮助评估机器人平台。  
 • 	**QRB ROS 传输**：在高通机器人平台上实现 ROS 消息的零拷贝传输。
 
-:::note QRB ROS Transport 基于 [REP 2007](https://www.ros.org/reps/rep-2007.html)实现，该标准定义了序列化自定义类型的接口，支持无需转换的进程内通信。:::
+:::note 
+QRB ROS Transport 基于 [REP 2007](https://www.ros.org/reps/rep-2007.html)实现，该标准定义了序列化自定义类型的接口，支持无需转换的进程内通信。
+:::
 
 **前提条件**
 
