@@ -52,7 +52,7 @@ QIR SDK 包含各种示例应用程序，分类如下：
 
 ## 仿真示例 – 自主移动机器人简单运动
 
-**自主移动机器人（******AMR）简单运动****是一个模拟示例应用程序，它使用基于 Python 的 ROS 节点来控制 QRB 自主移动机器人 (AMR) 在仿真环境的的运动。
+**自主移动机器人（AMR）简单运动**是一个模拟示例应用程序，它使用基于 Python 的 ROS 节点来控制 QRB 自主移动机器人 (AMR) 在仿真环境的的运动。
 
 [qrb-ros-simulation](https://github.com/qualcomm-qrb-ros/qrb_ros_simulation) 软件包提供了一个仿真环境。您可以通过向 /qrb\_robot\_base/cmd\_vel 主题发布ROS消息来控制QRB AMR的运动。  
 ![](../Robotics1.gif)
