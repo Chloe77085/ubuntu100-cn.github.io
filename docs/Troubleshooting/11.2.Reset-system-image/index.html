@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">重置为出厂 Ubuntu 镜像 | Ubuntu Manual CN</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/docs/Troubleshooting/11.2.Reset-system-image"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="重置为出厂 Ubuntu 镜像 | Ubuntu Manual CN"><meta data-rh="true" name="description" content="如果您的设备当前运行的是 Android 或 Qualcomm Linux (QLI)，可参考本节内容将现有操作系统替换为经过认证的 Canonical Ubuntu 24.04 Server 镜像。此操作需在Ubuntu、Windows® 或 macOS® 主机上完成。"><meta data-rh="true" property="og:description" content="如果您的设备当前运行的是 Android 或 Qualcomm Linux (QLI)，可参考本节内容将现有操作系统替换为经过认证的 Canonical Ubuntu 24.04 Server 镜像。此操作需在Ubuntu、Windows® 或 macOS® 主机上完成。"><link data-rh="true" rel="icon" href="/ubuntu100-cn.github.io/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/docs/Troubleshooting/11.2.Reset-system-image"><link data-rh="true" rel="alternate" href="https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/docs/Troubleshooting/11.2.Reset-system-image" hreflang="en"><link data-rh="true" rel="alternate" href="https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/docs/Troubleshooting/11.2.Reset-system-image" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"重置为出厂 Ubuntu 镜像","item":"https://ubuntu100-cn.github.io/ubuntu100-cn.github.io/docs/Troubleshooting/11.2.Reset-system-image"}]}</script><link rel="alternate" type="application/rss+xml" href="/ubuntu100-cn.github.io/blog/rss.xml" title="Ubuntu Manual CN RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/ubuntu100-cn.github.io/blog/atom.xml" title="Ubuntu Manual CN Atom Feed"><link rel="stylesheet" href="/ubuntu100-cn.github.io/assets/css/styles.a2f89494.css">
-<script src="/ubuntu100-cn.github.io/assets/js/runtime~main.2c11de75.js" defer="defer"></script>
+<script src="/ubuntu100-cn.github.io/assets/js/runtime~main.995ac248.js" defer="defer"></script>
 <script src="/ubuntu100-cn.github.io/assets/js/main.667d0c46.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -21,7 +21,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="现在开始吧">现在开始吧！<a href="#现在开始吧" class="hash-link" aria-label="Direct link to 现在开始吧！" title="Direct link to 现在开始吧！" translate="no">​</a></h3>
 <p><img decoding="async" loading="lazy" src="/ubuntu100-cn.github.io/assets/images/Workflow4-6f56df6072d23ca8a8456b0c8d60ba5e.png" width="478" height="402" class="img_ev3q"></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1️⃣-设置-qdl-工具">1️⃣ 设置 QDL 工具<a href="#1️⃣-设置-qdl-工具" class="hash-link" aria-label="Direct link to 1️⃣ 设置 QDL 工具" title="Direct link to 1️⃣ 设置 QDL 工具" translate="no">​</a></h3>
-<p><strong>Qualcomm 设备加载程序</strong> ****<strong>(QDL)</strong> 是一个跨平台工具。可以使用该工具在<strong>Windows</strong>、<strong>Linux</strong>和<strong>macOS</strong> 系统上传闪存加载程序，将软件镜像刷入 Qualcomm® USB 设备。<br>
+<p><strong>Qualcomm 设备加载程序(QDL)</strong> 是一个跨平台工具。可以使用该工具在<strong>Windows</strong>、<strong>Linux</strong>和<strong>macOS</strong> 系统上传闪存加载程序，将软件镜像刷入 Qualcomm® USB 设备。<br>
 <strong>a</strong>. 从提供的链接下载适合主机的（<strong>Windows</strong>、<strong>Linux</strong>或<strong>macOS</strong>）QDL 工具版本。  <a href="https://softwarecenter.qualcomm.com/catalog/item/Qualcomm_Device_Loader" target="_blank" rel="noopener noreferrer" class=""><strong>QDL 工具</strong>(包含可执行文件)</a><br>
 <strong>b</strong>. 查看官方设置指南，了解完整的刷机过程。</p>
 <a id="flashQDL"></a>
@@ -34,7 +34,7 @@
 <ul>
 <li class="">
 <p>1a：卸载现有驱动程序<br>
-<!-- -->确保<strong>未安装****Qualcomm USB 驱动程序(QUD)<strong>或任何其他冲突的驱动程序。打开</strong>设备管理器</strong>，找到您的设备，然后卸载所有现有的驱动程序。<br>
+<!-- -->确保<strong>未安装 Qualcomm USB 驱动程序(QUD)<strong>或任何其他冲突的驱动程序。打开</strong>设备管理器</strong>，找到您的设备，然后卸载所有现有的驱动程序。<br>
 <!-- -->在卸载对话框中，<strong>选中</strong>下图所示的框：</p>
 <p><img decoding="async" loading="lazy" src="/ubuntu100-cn.github.io/assets/images/image-24-ad6fbbbe94d93ff32bb913b64c1da281.jpg" width="803" height="586" class="img_ev3q"></p>
 <ul>
